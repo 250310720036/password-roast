@@ -4,21 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Password Roaster 🔥</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div class="floating fire1">🔥</div>
-    <div class="floating fire2">💀</div>
-    <div class="floating fire3">🔥</div>
-    <div class="floating fire4">😭</div>
-    <div class="floating fire5">🤡</div>
+    <div class="emoji emoji1">🔥</div>
+    <div class="emoji emoji2">💀</div>
+    <div class="emoji emoji3">😭</div>
+    <div class="emoji emoji4">🤡</div>
+    <div class="emoji emoji5">🔥</div>
+    <div class="emoji emoji6">👀</div>
 
     <div class="card" id="card">
 
-        <div class="eyes">👀</div>
+        <div class="watching">
+            👀 I'M WATCHING YOUR PASSWORD
+        </div>
 
         <div class="fire">🔥</div>
 
@@ -26,7 +31,7 @@
 
         <p class="subtitle">
             Enter your password.<br>
-            I promise to be nice 😈
+            I promise I won't judge... probably 😈
         </p>
 
         <div class="password-box">
@@ -34,7 +39,8 @@
             <input
                 type="password"
                 id="password"
-                placeholder="Enter your password..."
+                placeholder="Type your masterpiece..."
+                autocomplete="off"
             >
 
             <button id="showBtn">👁️</button>
@@ -42,26 +48,26 @@
         </div>
 
         <button id="roastBtn">
-            ROAST MY PASSWORD 🔥
+            🔥 ROAST MY PASSWORD 🔥
         </button>
 
         <div id="roast">
             Waiting to destroy your confidence... 💀
         </div>
 
-        <div class="damage-title">
-            Emotional Damage:
+        <div class="damage-text">
+            EMOTIONAL DAMAGE
             <span id="damage">0</span>%
         </div>
 
         <div class="damage-bar">
-
             <div id="damageFill"></div>
-
         </div>
 
+        <div id="damageEmoji">😌</div>
+
         <p class="warning">
-            ⚠️ No passwords were emotionally prepared for this.
+            ⚠️ Warning: Password feelings may be hurt.
         </p>
 
     </div>
